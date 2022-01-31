@@ -44,8 +44,10 @@ def test_reconstruct_matrix_from_eigenthings():
                                 eigenvectors,
                                 eigenvalues)
     print('Original matrix:\n', original_matrix)
+    print('Eigenvectors:\n', eigenvectors)
+    print('Eigenvalues:\n', eigenvalues)
     print('Reconstructed matrix:\n', reconstructed_matrix)
-    print(original_matrix.round(8) == reconstructed_matrix.round(8))
+
 
 if __name__ == '__main__':
     test_confirm_eigenvectors()
